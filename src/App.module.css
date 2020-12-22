@@ -6,4 +6,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: "Source Serif Pro", Iowan Old Style, Apple Garamond,
+    Palatino Linotype;
 }
