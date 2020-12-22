@@ -14,9 +14,16 @@ function App() {
       <Flex justifyContent="flex-end">
         <ColorModeSwitcher m={3} />
       </Flex>
-      <Box className={styles.app}>
+      <Flex
+        className={styles.app}
+        minH="100vh"
+        fontSize="calc(10px + 2vmin)"
+        direction="column"
+        alignItems="center"
+        justifyContent="center"
+      >
         <Box color={color[colorMode]}>react-ts-chakra-ui</Box>
-      </Box>
+      </Flex>
     </Box>
   );
 }
