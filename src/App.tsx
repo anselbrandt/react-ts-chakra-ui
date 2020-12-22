@@ -7,7 +7,7 @@ function App() {
   const { colorMode } = useColorMode();
   const color = {
     light: "nebula.500",
-    dark: "nebula.300",
+    dark: "nebula.400",
   };
   return (
     <Box>
